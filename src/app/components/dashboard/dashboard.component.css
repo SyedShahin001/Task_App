@@ -1,0 +1,48 @@
+
+mat-toolbar {
+    background-color: #3f3c31d7; 
+    color: white; 
+}
+
+
+button {
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.btn-signout {
+    color: white; 
+    background-color: transparent; 
+    border: none; 
+}
+
+
+.btn-signout:hover {
+    background-color: rgba(173, 109, 255, 0.2); 
+}
+
+
+mat-form-field {
+    margin-left: 16px; 
+}
+
+
+.spacer {
+    flex: 1 1 auto; 
+}
+
+
+mat-icon-button {
+    color: white;
+}
+
+
+mat-icon-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}

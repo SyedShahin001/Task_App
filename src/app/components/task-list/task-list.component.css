@@ -1,0 +1,86 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.add-task-button {
+  background-color: rgb(189, 159, 11); 
+  color: white; 
+}
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+}
+.search-field, .filter-field {
+  min-width: 200px;
+}
+button.mat-fab.add-task-button {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  padding: 0 16px; 
+  font-size: 0.875rem; 
+}
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.task-table th.mat-header-cell {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-bottom: 2px solid #1976d2;
+}
+.task-table td.mat-cell {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s;
+}
+.task-table tr:hover {
+  background-color: #9d71ee2a;
+}
+.completed {
+  color: green;
+  font-weight: bold;
+}
+.mat-paginator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.add-task-container {
+  display: flex;              
+  align-items: center;      
+}
+
+.add-task-button {
+  margin-right: 8px;          
+}
+
+.add-task-text {
+  font-size: 16px;            
+  line-height: 24px;          
+}
+
+

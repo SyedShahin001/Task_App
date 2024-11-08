@@ -1,0 +1,41 @@
+
+.home-container {
+    text-align: center; 
+    padding: 20px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+h1 {
+    color: #3f51b5; 
+}
+
+h2 {
+    color: #673ab7; 
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.main-image {
+    width: 500px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.secondary-image {
+    width: 500px; 
+    height: auto; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+li {
+    margin: 10px 0; 
+}
